@@ -1,6 +1,6 @@
 # Ralph / ClickHouse backend configuration
 # ########################################
-backend: ralph_clickhouse
+backend: clickhouse
 db_host: {{ CLICKHOUSE_HOST }}
 db_port: {{ CLICKHOUSE_INTERNAL_HTTP_PORT }}
 db_name: {{ ASPECTS_XAPI_DATABASE }}
@@ -17,7 +17,7 @@ batch_size: 100
 
 # Overall start and end date for the entire run
 start_date: 2014-01-01
-end_date: 2023-11-27
+end_date: 2030-01-01
 
 # All courses will be this long, and be fit into the start / end dates
 # This must be less than end_date - start_date days.
