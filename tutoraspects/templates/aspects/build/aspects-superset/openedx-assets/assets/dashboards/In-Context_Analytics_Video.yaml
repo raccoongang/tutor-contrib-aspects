@@ -94,14 +94,16 @@ metadata:
       datasetUuid: c2c391b3-3403-4f05-bc0b-3de53bd366ec
     type: NATIVE_FILTER
   refresh_frequency: 0
-  shared_label_colors: {}
+  shared_label_colors:
+    repeat_views: '#7B144D'
+    unique_views: '#29A399'
   timed_refresh_immune_slices: []
 position:
   CHART-explore-1665-1:
     children: []
     id: CHART-explore-1665-1
     meta:
-      chartId: 521
+      chartId: 53
       height: 50
       sliceName: Unique vs. Repeat Views
       uuid: 0245bcf6-8a13-42ee-9817-2a9922e7347b
