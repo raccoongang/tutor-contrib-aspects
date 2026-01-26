@@ -164,7 +164,7 @@ setup(
     packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
     python_requires=">=3.11",
-    install_requires=load_requirements("requirements/base.in"),
+    install_requires=load_requirements("requirements/base.txt"),
     entry_points={"tutor.plugin.v1": ["aspects = tutoraspects.plugin"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
