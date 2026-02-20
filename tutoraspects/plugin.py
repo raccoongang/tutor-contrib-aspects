@@ -641,7 +641,13 @@ for path in glob(
     )
 ):
     with open(path, encoding="utf-8") as patch_file:
-        hooks.Filters.ENV_PATCHES.add_item((os.path.basename(path), patch_file.read()))
+        # Updated the priority of the authoring MFE dependency due to the use of the --legacy-peer-deps flag.
+        # This flag prevents proper installation of custom-modified MFE dependencies using requirements configs.
+        # More details: https://github.com/openedx/tutor-contrib-aspects/issues/1091
+        if patch_file.name.endswith('mfe-dockerfile-post-npm-install-authoring'):
+            hooks.Filters.ENV_PATCHES.add_item((os.path.basename(path), patch_file.read()), 100)
+        else:
+            hooks.Filters.ENV_PATCHES.add_item((os.path.basename(path), patch_file.read()))
 
 ########################################
 # CUSTOM JOBS (a.k.a. "do-commands")
