@@ -343,8 +343,7 @@ metadata:
       - ROOT_ID
   label_colors: {}
   native_filter_configuration:
-  - cascadeParentIds:
-    - NATIVE_FILTER-Yi2j6NjTP
+  - cascadeParentIds: []
     chartsInScope:
     - 81
     - 146
@@ -362,7 +361,7 @@ metadata:
     - 1483
     - 1530
     controlValues:
-      defaultToFirstItem: false
+      defaultToFirstItem: true
       enableEmptyFilter: false
       inverseSelection: false
       multiSelect: false
@@ -390,98 +389,6 @@ metadata:
     type: NATIVE_FILTER
   - cascadeParentIds:
     - NATIVE_FILTER-MzsGTTmWI
-    chartsInScope:
-    - 7
-    - 22
-    - 59
-    - 92
-    - 100
-    - 104
-    - 136
-    - 143
-    - 164
-    - 169
-    - 180
-    - 182
-    - 187
-    - 192
-    controlValues:
-      defaultToFirstItem: true
-      enableEmptyFilter: false
-      inverseSelection: false
-      multiSelect: false
-      searchAllOptions: true
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    description: ''
-    filterType: filter_select
-    id: NATIVE_FILTER-Yi2j6NjTP
-    name: Course Name
-    requiredFirst: true
-    scope:
-      excluded: []
-      rootPath:
-      - ROOT_ID
-    tabsInScope:
-    - TAB-60D1MfEOi
-    - TAB-Fq7aRqpYF
-    - TAB-LMmJ7FePiY
-    targets:
-    - column:
-        name: course_name
-      datasetUuid: 38488934-35ee-5404-9acc-7e67626ddfae
-    type: NATIVE_FILTER
-  - cascadeParentIds:
-    - NATIVE_FILTER-MzsGTTmWI
-    - NATIVE_FILTER-Yi2j6NjTP
-    chartsInScope:
-    - 7
-    - 22
-    - 59
-    - 92
-    - 100
-    - 104
-    - 136
-    - 143
-    - 164
-    - 169
-    - 180
-    - 182
-    - 187
-    - 192
-    controlValues:
-      defaultToFirstItem: false
-      enableEmptyFilter: false
-      inverseSelection: false
-      multiSelect: false
-      searchAllOptions: true
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    description: ''
-    filterType: filter_select
-    id: NATIVE_FILTER-7d8oQvnW_
-    name: Course Run
-    scope:
-      excluded: []
-      rootPath:
-      - ROOT_ID
-    tabsInScope:
-    - TAB-60D1MfEOi
-    - TAB-Fq7aRqpYF
-    - TAB-LMmJ7FePiY
-    targets:
-    - column:
-        name: course_run
-      datasetUuid: 38488934-35ee-5404-9acc-7e67626ddfae
-    type: NATIVE_FILTER
-  - cascadeParentIds:
-    - NATIVE_FILTER-MzsGTTmWI
-    - NATIVE_FILTER-Yi2j6NjTP
-    - NATIVE_FILTER-7d8oQvnW_
     chartsInScope:
     - 7
     - 22
@@ -526,8 +433,6 @@ metadata:
     type: NATIVE_FILTER
   - cascadeParentIds:
     - NATIVE_FILTER-MzsGTTmWI
-    - NATIVE_FILTER-Yi2j6NjTP
-    - NATIVE_FILTER-7d8oQvnW_
     chartsInScope:
     - 7
     - 22
@@ -572,8 +477,6 @@ metadata:
     type: NATIVE_FILTER
   - cascadeParentIds:
     - NATIVE_FILTER-MzsGTTmWI
-    - NATIVE_FILTER-Yi2j6NjTP
-    - NATIVE_FILTER-7d8oQvnW_
     chartsInScope:
     - 7
     - 22
