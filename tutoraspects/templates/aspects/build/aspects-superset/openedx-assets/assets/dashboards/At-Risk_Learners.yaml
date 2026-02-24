@@ -415,59 +415,7 @@ metadata:
       - ROOT_ID
   label_colors: {}
   native_filter_configuration:
-  - cascadeParentIds:
-    - NATIVE_FILTER-_isF30QLx
-    chartsInScope:
-    - 122
-    - 173
-    - 408
-    - 499
-    - 556
-    - 592
-    - 605
-    - 672
-    - 713
-    - 748
-    - 760
-    - 832
-    - 1031
-    - 1033
-    - 1100
-    - 1126
-    - 1180
-    controlValues:
-      defaultToFirstItem: false
-      enableEmptyFilter: false
-      inverseSelection: false
-      multiSelect: false
-      searchAllOptions: false
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    description: ''
-    filterType: filter_select
-    id: NATIVE_FILTER-BlR-Ig6ob
-    name: Organization
-    scope:
-      excluded: []
-      rootPath:
-      - ROOT_ID
-    tabsInScope:
-    - TAB-CRJ0LHIfEa
-    - TAB-GeKBNaKbHg
-    - TAB-T3nFxdINB
-    - TAB-ez_vuoah8
-    - TAB-YFvF29I04
-    - TAB-nWjLboV5Q
-    - TAB-s_n47Pk1I
-    targets:
-    - column:
-        name: org
-      datasetUuid: 38488934-35ee-5404-9acc-7e67626ddfae
-    type: NATIVE_FILTER
-  - cascadeParentIds:
-    - NATIVE_FILTER-BlR-Ig6ob
+  - cascadeParentIds: []
     chartsInScope:
     - 122
     - 173
@@ -498,9 +446,8 @@ metadata:
       ownState: {}
     description: ''
     filterType: filter_select
-    id: NATIVE_FILTER-_isF30QLx
-    name: Course Name
-    requiredFirst: true
+    id: NATIVE_FILTER-BlR-Ig6ob
+    name: Organization
     scope:
       excluded: []
       rootPath:
@@ -515,59 +462,7 @@ metadata:
     - TAB-s_n47Pk1I
     targets:
     - column:
-        name: course_name
-      datasetUuid: 38488934-35ee-5404-9acc-7e67626ddfae
-    type: NATIVE_FILTER
-  - cascadeParentIds:
-    - NATIVE_FILTER-BlR-Ig6ob
-    - NATIVE_FILTER-_isF30QLx
-    chartsInScope:
-    - 133
-    - 138
-    - 139
-    - 145
-    - 156
-    - 162
-    - 163
-    - 165
-    - 168
-    - 171
-    - 177
-    - 178
-    - 179
-    - 183
-    - 188
-    - 190
-    - 191
-    controlValues:
-      defaultToFirstItem: false
-      enableEmptyFilter: false
-      inverseSelection: false
-      multiSelect: false
-      searchAllOptions: false
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    description: ''
-    filterType: filter_select
-    id: NATIVE_FILTER-MvQWFRvrn
-    name: Course Run
-    scope:
-      excluded: []
-      rootPath:
-      - ROOT_ID
-    tabsInScope:
-    - TAB-CRJ0LHIfEa
-    - TAB-GeKBNaKbHg
-    - TAB-T3nFxdINB
-    - TAB-ez_vuoah8
-    - TAB-YFvF29I04
-    - TAB-nWjLboV5Q
-    - TAB-s_n47Pk1I
-    targets:
-    - column:
-        name: course_run
+        name: org
       datasetUuid: 38488934-35ee-5404-9acc-7e67626ddfae
     type: NATIVE_FILTER
   - chartsInScope: []
