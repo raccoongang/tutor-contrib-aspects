@@ -379,6 +379,8 @@ hooks.Filters.CONFIG_DEFAULTS.add_items(
         # flexibility for forking, running branches, specific versions, etc.
         ("DBT_REPOSITORY", "https://github.com/openedx/aspects-dbt"),
         ("DBT_BRANCH", "v6.1.0"),
+        # Harrow: git ref of raccoongang/platform-plugin-aspects (token fixes backported onto v1.1.1)
+        ("ASPECTS_PLATFORM_PLUGIN_VERSION", "harrow-main"),
         ("DBT_SSH_KEY", ""),
         ("DBT_STATE_DIR", "/app/aspects-dbt/state"),
         ("DBT_PROFILES_DIR", "/app/aspects/dbt/"),
