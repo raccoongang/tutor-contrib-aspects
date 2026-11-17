@@ -86,11 +86,7 @@ metadata:
       datasetUuid: 38488934-35ee-5404-9acc-7e67626ddfae
     type: NATIVE_FILTER
   refresh_frequency: 0
-  shared_label_colors:
-    Repeat Views: '#7B144D'
-    Respondents: '#29A399'
-    Total Views: '#29A399'
-    perc_correct_first: '#7B144D'
+  shared_label_colors: {}
   timed_refresh_immune_slices: []
 position:
   CHART-GnyQPJ18hu:
