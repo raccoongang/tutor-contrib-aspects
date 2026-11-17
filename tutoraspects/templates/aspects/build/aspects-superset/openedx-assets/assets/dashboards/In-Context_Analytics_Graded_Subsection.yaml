@@ -104,11 +104,7 @@ metadata:
       datasetUuid: 49057cac-177c-5c2a-ade7-124054656741
     type: NATIVE_FILTER
   refresh_frequency: 0
-  shared_label_colors:
-    Correct: '#7B144D'
-    Incorrect: '#29A399'
-    Total Average Score: '#7B144D'
-    count: '#29A399'
+  shared_label_colors: {}
   timed_refresh_immune_slices: []
 position:
   CHART-explore-1669-1:
